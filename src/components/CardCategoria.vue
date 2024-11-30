@@ -15,7 +15,7 @@ export default {
 
 
 <template>
-    <aticle class="categoria">
+    <article class="categoria">
         <header class="categoria__cabecalho">
             <img :src="`./imagens/icones/categorias_ingredientes/${categoria.imagem}`" alt="" class="categoria__imagem">
 
@@ -30,7 +30,7 @@ export default {
                 @remover-ingrediente="$emit('removerIngrediente', $event)"/> 
             </li>
         </ul>
-    </aticle>
+    </article>
 </template>
 
 <style scoped>
